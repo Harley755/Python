@@ -1,3 +1,10 @@
+def main():
+    x = getInt()
+    print(f"This number is {x}")
+    
+    
+# end def
+
 def getInt():
     while True:
         try:
@@ -10,4 +17,5 @@ def getInt():
     return number
 # end def
 
-print(f"This number is {getInt()}")
+main()
+
