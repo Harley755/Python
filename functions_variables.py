@@ -1,6 +1,9 @@
 numbers = [1,22,3,4,5, 55]
 
 def main() :
+    nbre = int(input("Combien de fois le chat miaule ? "))
+    numberMaow(nbre)
+    
     number = int(input("Enter number : "))
     if isEven(number) == True:
         print(f"{number} is even")
@@ -42,5 +45,9 @@ def isMoreBig(numbers):
         if i > more_big_number:
             more_big_number = i
     return more_big_number  
+
+def numberMaow(number) :
+    for i in range(number):
+        print("meow")
 
 main()
