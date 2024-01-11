@@ -1,7 +1,7 @@
 numbers = [1,22,3,4,5, 55]
 
 def main() :
-    numberMaow(getNumber())
+    
     
     number = int(input("Enter number : "))
     if isEven(number) == True:
@@ -45,16 +45,6 @@ def isMoreBig(numbers):
             more_big_number = i
     return more_big_number  
 
-def getNumber():
-    while True:
-        n = int(input("Combien de fois le chat miaule ? "))
-        if (n > 0) :
-            return n
-            break
-# end def
 
-def numberMaow(number) :
-    for i in range(number):
-        print("meow")
 
 main()
