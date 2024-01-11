@@ -12,9 +12,8 @@ def getInt():
         except ValueError:
             print("This number is not an integer")
         else:
-            break
+            return number
         # end try
-    return number
 # end def
 
 main()
