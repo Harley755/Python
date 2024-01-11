@@ -8,12 +8,9 @@ def main():
 def getInt():
     while True:
         try:
-            number = int(input("Please enter number : "))
+            return int(input("Please enter number : "))
         except ValueError:
-            print("This number is not an integer")
-        else:
-            return number
-        # end try
+            pass
 # end def
 
 main()
